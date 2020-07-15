@@ -26,6 +26,10 @@
   font-size: 16px;
 }
 
+p.margin-bottom-xs {
+  margin-bottom:5px;
+}
+
 @media only screen and (max-width: 768px) {
   .banner h1 {
     font-size: 34px;
