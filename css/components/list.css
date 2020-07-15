@@ -1,0 +1,104 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+
+.product:hover {
+  background: rgb(190, 190, 190);
+  color:#222322;
+}
+
+
+.product:hover .product-upvote {
+  font-size: 25px;
+}
+
+
+.product-upvote {
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.product-description {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+.product-controls a {
+  font-size: 15px;
+  color: #CCCCCC;
+}
+
+/* Ara Nielsen */
+
+.concert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.concert:hover {
+  background: #F1F1F9;
+  color:#222322;
+}
+
+.concert-date {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.concert-venue {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+.concert-town {
+  flex: 0 0 300px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+
+.concert-town p, .concert-venue h3, .concert-date p {
+  margin:0px !important;
+}
+
+.concert-town a {
+  color:#A3EEF3 !important;
+}
+
+.concert-town a:hover {
+  color: #CA2A26 !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .concert {
+    padding-left: 0px !important;
+  }
+
+  .concert-date {
+      font-size: 16px;
+      padding: 20px 10px 20px 0;
+  }
+
+  .concert-venue {
+  padding: 20px 10px;
+  }
+
+  .concert-venue h3 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .concert-town {
+    font-size: 17px;
+}
+}

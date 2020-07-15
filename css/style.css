@@ -1,0 +1,87 @@
+
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Components design --- */
+@import url("components/button.css");
+@import url("components/dropdown.css");
+@import url("components/card.css");
+@import url("components/banner.css");
+@import url("components/list.css");
+@import url("components/images.css");
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background: #06060E;
+  color: white;
+}
+
+.container {
+padding:20px;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+}
+
+h1 {
+  margin: 1px 0;
+}
+
+h2, h3 {
+  margin: 20px 0;
+}
+
+h2 {
+color:#A3EEF3;
+}
+
+.fa:hover {
+color: #E02F29 !important;
+
+}
+
+.fa-play-circle {
+	position:relative;
+	top:2px;
+}
+
+#play {
+	text-decoration: none;
+	color: #A3EEF3;
+	font-size: 25px;
+}
+
+#play:hover {
+	color: #E02F29; 
+}
+
+
+
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+
+
+#sticky-bottom {
+     position: sticky; 
+     bottom: 0;
+     background-color: #06060E;
+}
+
+
+#tour-dates{
+		margin-bottom: 150px;
+}
+
+.social-icons {
+text-align: center;
+}

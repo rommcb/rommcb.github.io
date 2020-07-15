@@ -1,0 +1,38 @@
+.banner {
+  height: 90vh;
+ /* background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("../../images/picture-1.jpg");
+  background-size: cover; */
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  margin:0px;
+
+}
+
+.banner p.other-bands, span.other-bands {
+  margin-top:10px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 34px;
+  }
+  .banner p {
+      font-size: 18px;
+      margin: 8px;
+    }
+    
+}

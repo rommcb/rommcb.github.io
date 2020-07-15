@@ -1,0 +1,33 @@
+
+#pic1, #pic2 {
+	position:relative;
+}
+
+#pic1 {
+	max-width:700px;
+	left: 133px;
+}
+
+#pic2 {
+	max-width: 380px;
+    left: -126px;
+    top: 11px;
+    opacity: 0.9;
+}
+
+#images {
+	margin-bottom:140px;
+}
+
+@media only screen and (max-width: 768px) {
+#pic1 {
+	width:100%;
+	left: 0px !important;
+}
+
+#pic2 {
+	width: 90%;
+    left: 0px !important;
+}
+
+}
