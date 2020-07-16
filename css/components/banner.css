@@ -51,6 +51,9 @@ color: #E02F29 !important;
 }
 
 @media only screen and (max-width: 768px) {
+  .banner {
+    height: 85vh;
+  }
   .banner h1 {
     font-size: 34px;
   }
