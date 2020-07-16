@@ -4,7 +4,6 @@
 
 /* --- Components design --- */
 @import url("components/button.css");
-@import url("components/dropdown.css");
 @import url("components/card.css");
 @import url("components/banner.css");
 @import url("components/list.css");
@@ -37,38 +36,6 @@ h2 {
 color:#A3EEF3;
 }
 
-.fa:hover {
-color: #E02F29 !important;
-
-}
-
-.fa-play-circle {
-	position:relative;
-	top:2px;
-}
-
-#play {
-	text-decoration: none;
-	color: #A3EEF3;
-	font-size: 25px;
-}
-
-#play:hover {
-	color: #E02F29; 
-}
-
-
-
-
-#headerPopup{
-  width:75%;
-  margin:0 auto;
-}
-
-#headerPopup iframe{
-  width:100%;
-  margin:0 auto;
-}
 
 
 #sticky-bottom {
@@ -83,5 +50,15 @@ color: #E02F29 !important;
 }
 
 .social-icons {
-text-align: center;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px 0;
+}
+
+.concert-town a, .social-icons a {
+  color:#A3EEF3 !important;
+}
+
+.concert-town a:hover, .social-icons a:hover {
+  color: #CA2A26 !important;
 }

@@ -30,6 +30,26 @@ p.margin-bottom-xs {
   margin-bottom:5px;
 }
 
+.fa:hover {
+color: #E02F29 !important;
+
+}
+
+.fa-play-circle {
+  position:relative;
+  top:2px;
+}
+
+#play {
+  text-decoration: none;
+  color: #A3EEF3;
+  font-size: 25px;
+}
+
+#play:hover {
+  color: #E02F29; 
+}
+
 @media only screen and (max-width: 768px) {
   .banner h1 {
     font-size: 34px;
