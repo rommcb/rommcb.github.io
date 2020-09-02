@@ -32,9 +32,13 @@ h2, h3 {
   margin: 20px 0;
 }
 
-h2, a#play {
+h2, .blue, a#play {
 color:#A3EEF3;
 font-family: "PT Mono", "Montserrat", "sans-serif";
+}
+
+.medium-size {
+  font-size: 26px;
 }
 
 h2 {
