@@ -41,6 +41,10 @@ font-family: "PT Mono", "Montserrat", "sans-serif";
   font-size: 26px;
 }
 
+.large-size {
+  font-size: 25px !important;
+}
+
 h2 {
   font-size: 58px;
 }
